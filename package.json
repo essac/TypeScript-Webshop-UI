@@ -1,0 +1,30 @@
+{
+  "name": "Shopping-Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.bundle.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -W",
+    "wp:build": "webpack --mode=production",
+    "wp:watch": "webpack --watch --mode=development",
+    "sass": "node-sass sass/main.scss dist/main.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "es6-promise": "^4.2.8",
+    "node-sass": "^4.13.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@types/es6-shim": "^0.31.39",
+    "@types/jquery": "^3.3.32",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
+}

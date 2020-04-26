@@ -1,0 +1,119 @@
+$font-stack: Helvetica;
+$primary-color: #333;
+
+$fontSize-title: 18px;
+$fontWeight-title: bold;
+
+$product-type: #979797;
+$product-price: #ff0000;
+
+$color-footer: #777;
+$color-footer-border: #777;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    width: auto;
+    padding: 0;
+    margin: 0;
+
+    #header {
+        padding-bottom: 50px;
+
+        .navbar {
+            background-color: #f1f1f1;
+            padding: 10px;
+            box-shadow: 1px 1px 8px #949494;
+
+            .navbar-brand {
+                color: #249cff !important;
+                font-weight: 900;
+            }
+        }
+    }
+
+    #content {
+        text-align: center;
+
+        #p-title {
+            font-size: $fontSize-title;
+            font-weight: $fontWeight-title;
+            background-color: #f3f3f3;
+            padding: 20px;
+        }
+
+        #p-type {
+            color: $product-type;
+        }
+
+        #p-price {
+            color: $product-price;
+            text-transform: uppercase;
+        }
+
+        #p-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            border: 1px solid;
+            padding: 10px;
+            box-shadow: 5px 10px 8px #888888;
+        }
+
+        #product0,
+        #product1,
+        #product2,
+        #product3,
+        #product4,
+        #product5,
+        #product6 {
+            display: inline-block;
+            width: 450px;
+            border: solid 2px;
+            border-color: #f0f0f0;
+            background-color: ​#f0f0f0;
+            margin: 5px;
+        }
+    }
+}
+
+
+.cartBtn {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    background-color: aqua;
+    border: solid 1px;
+    border-color: #000000;
+    outline: none;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    margin: 5px;
+}
+
+.input-group-addon {
+    padding: .5rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #464a4c;
+    text-align: center;
+    background-color: #eceeef;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+}
+
+.input-group-addon,
+.input-group-btn {
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.footer {
+    padding-top: 19px;
+    color: $color-footer;
+    text-align: center;
+}
