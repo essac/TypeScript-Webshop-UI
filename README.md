@@ -1,4 +1,4 @@
-## Webshop UI application with TypeScript, vanilla JS and SCSS.
+## Webshop UI Application With TypeScript, JavaScript and SCSS.
 
 Webshop application which present a set of products.
 
