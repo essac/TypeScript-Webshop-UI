@@ -6,5 +6,6 @@ Webshop application which present a set of products.
 * Call products from a hardcoded-list.
 * Add items to cart.
 * Modify number of cart items.
+* Delete items from cart.
 
 <img src="screenshot/screenshot.png" width="1000">
